@@ -1,6 +1,26 @@
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:100;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
-
 .btn-custom {
   background-color: #0066C8;
   border-color: #0066C8;
