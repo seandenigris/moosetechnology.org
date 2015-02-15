@@ -30,7 +30,7 @@
         It helps programmers craft custom analyses cheaply. <br/>
         It's based on Pharo and it's open source under BSD/MIT.
       </div>
-      <a href="#install" class="btn btn-lg btn-custom">Install 5.0 beta</a>
+      <a href="#install" class="btn btn-lg btn-custom">Install</a>
       <a href="#twitter" class="btn btn-lg btn-custom">Follow @moosetechnology</a>
     </div>
 
@@ -42,16 +42,11 @@
             <span class="glyphicon glyphicon-bar"></span>
             <span class="glyphicon glyphicon-bar"></span>
             <span class="glyphicon glyphicon-bar"></span>
-            <span class="glyphicon glyphicon-bar"></span>
-            <span class="glyphicon glyphicon-bar"></span>
-            <span class="glyphicon glyphicon-bar"></span>
-            <span class="glyphicon glyphicon-bar"></span>
-            <span class="glyphicon glyphicon-bar"></span>
           </a>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#home">Home</a></li>
-              <li><a href="#highlights">Highlights</a></li>
+              <li><a href="#myCarousel">Highlights</a></li>
               <li><a href="#features">Features</a></li>
               <li><a href="#install">Install</a></li>
               <li><a href="#learn">Learn</a></li>
@@ -64,7 +59,6 @@
       </div>
     </div>
 
-    <div id="highlights" class="vspace">
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -78,7 +72,7 @@
         <div class="item active">
           <div class="container">
             <div class="carousel-caption">
-              <img src="pictures/humaneassessment.png" alt="Humane assessment" style="width: 70%"/>
+              <img src="pictures/humaneassessment.png" alt="Humane assessment" style="width: 600px"/>
               <h1>Moose enables humane assessment</h1>
               <p>Humane assessment is a method for solving real problems without reading code.</p>
               <p><a class="btn btn-lg btn-default" href="http://humane-assessment.com">More at humane-assessment.com</a></p>
@@ -88,7 +82,7 @@
         <div class="item">
           <div class="container">
             <div class="carousel-caption">
-              <img src="pictures/agilevisualization.png" alt="Agile visualization" style="width: 80% "/>
+              <img src="pictures/agilevisualization.png" alt="Agile visualization" style="width: 600px"/>
               <h1>Moose enables agile visualization.</h1>
               <p>The Roassal engine enables rapid visualization creation for various types of data.</p>
               <p><a class="btn btn-lg btn-default" href="http://agilevisualization.com">More at agilevisualization.com</a></p>
@@ -98,7 +92,7 @@
         <div class="item">
           <div class="container">
             <div class="carousel-caption">
-              <img src="pictures/gt-spaced.png" alt="Glamorous Toolkit" style="width: 100%"/>
+              <img src="pictures/gt-spaced.png" alt="Glamorous Toolkit" style="width: 800px"/>
               <h1>Moose enables moldable development for Pharo.</h1>
               <p>The Glamorous Toolkit for Pharo reinvents the IDE.</p>
               <p><a class="btn btn-lg btn-default" href="http://gt.moosetechnology.org">More at gt.moosetechnology.org</a></p>
@@ -109,7 +103,6 @@
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
-    </div>
 
     <hr class="featurette-divider" id="features"/>
 
@@ -160,9 +153,20 @@
           </p>
         </div>
         <div class="col-md-5">
-            <h3>Moose 5.0 beta image</h3>
+            <h3>Moose 5.0</h3>
             <p class="lead">  
-              Download the <a href="https://ci.inria.fr/moose/job/moose-5.0/lastSuccessfulBuild/artifact/moose-5.0.zip">Moose 5.0 beta image</a>.
+              Download the <a href="http://moosetechnology.org/res/download/moose_suite_5_0-win.zip">Moose 5.0 for Windows</a>.
+            </p>
+            <p class="lead">  
+              Download the <a href="http://moosetechnology.org/res/download/moose_suite_5_0-mac.zip">Moose 5.0 for Mac</a>.
+            </p>
+            <p class="lead">  
+              Download the <a href="http://moosetechnology.org/res/download/moose_suite_5_0-linux.zip">Moose 5.0 for Linux</a>.
+            </p>
+
+            <h3>Moose 5.0 image</h3>
+            <p class="lead">  
+              Download the <a href="http://moosetechnology.org/res/download/moose_image_5_0.zip">Moose 5.0 image</a>.
             </p>
             <p class="lead">  
               Run it with the <a href="http://pharo.org/download">Pharo Virtual Machine</a>.
@@ -176,20 +180,18 @@
 Gofer new
     smalltalkhubUser: 'Moose' project: 'Moose';
     configuration;
-    loadDevelopment.
+    loadStable.
             </pre>
 
+            <h3>Moose 5.1 development image</h3>
+            <p class="lead">  
+              Download the <a href="https://ci.inria.fr/moose/job/moose-5.1/lastSuccessfulBuild/artifact/moose-5.1.zip">Moose 5.1 image</a>.
+            </p>
+            <p class="lead">  
+              Run it with the <a href="http://pharo.org/download">Pharo Virtual Machine</a>.
+            </p>
 
-            <h3>Moose 4.9</h3>
-            <p class="lead">  
-              Download the <a href="https://dl.dropboxusercontent.com/u/18323746/Moose/moose_suite_4_9-win.zip">Moose 4.9 package for Windows</a>.
-            </p>
-            <p class="lead">  
-              Download the <a href="https://dl.dropboxusercontent.com/u/18323746/Moose/moose_suite_4_9-mac.zip">Moose 4.9 package for Mac</a>.
-            </p>
-            <p class="lead">  
-              Download the <a href="https://dl.dropboxusercontent.com/u/18323746/Moose/moose_suite_4_9-linux.zip">Moose 4.9 package for Linux</a>.
-            </p>
+            
         </div>
       </div>
 
@@ -282,6 +284,7 @@ Gofer new
             <a href="http://rmod.inria.fr"><img src="pictures/contributor-rmod.png" style="width: 100px; margin: 20px"/></a>
             <a href="http://pleiad.dcc.uchile.cl"><img src="pictures/contributor-pleiad.png"style="width: 100px; margin: 20px"/></a>
             <a href="http://www.inf.usi.ch/faculty/lanza/reveal.html"><img src="pictures/contributor-usi.png" style="width: 100px; margin: 20px"/></a>
+            <a href="http://www.ummisco.ird.fr/"><img src="pictures/contributor-ummisco.jpg" style="width: 100px; margin: 20px"/></a>
           </p>
           <p>
             <a href="http://objectprofile.com"><img src="pictures/contributor-objectprofile.png" style="width: 100px; margin: 20px"/></a>
